@@ -7,8 +7,11 @@ let carousel;
 
 function onReady() {
     console.log('hello jquery');
-    carousel = $(".testimonial-card");
-    carousel.itemslide();
+    carousel = $(".testimonial-list");
+    carousel.itemslide({
+      disable_autowidth: true
+    });
+    
 }
 // var carousel;
 // $(document).ready(function() {

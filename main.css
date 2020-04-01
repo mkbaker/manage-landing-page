@@ -73,17 +73,18 @@ h6 {
 
 }
 
-#scrolling { /* Carousel Frame */
+#scrolling { 
     overflow: hidden;
+    /* align-content: center; */
 }
 
 .testimonial-list {
+    flex-wrap: nowrap; 
     margin: 0;
     padding: 0;
     -webkit-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    flex-wrap: nowrap;
 }
 
 .testimonial-card {
