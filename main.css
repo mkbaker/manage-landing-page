@@ -1,0 +1,103 @@
+
+body {
+    font-family: 'Be Vietnam', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#logo {
+    
+}
+
+.navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#navbar-button {
+
+}
+
+.navbar-links li {
+    display: inline;
+    font-weight: 700;
+    padding: 0 10px;
+    color: hsl(228, 39%, 23%);
+}
+
+.get-started-button {
+    background-color: hsl(12, 88%, 59%);
+    border: none;
+    border-radius: 20px;
+    color:hsl(0, 0%, 98%);
+    padding: 10px 20px;
+    font-weight: 500;
+    box-shadow: 0px 16px 6px -8px rgba(255,239,235,0.68);
+}
+
+.jumbotron {
+    background-color:transparent !important
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: hsl(228, 39%, 23%);
+    font-weight: 700;
+}
+
+.badge {
+    background-color: hsl(12, 88%, 59%);
+}
+
+h6 {
+    display: inline;
+}
+
+.what-theyve-said {
+    text-align: center;
+}
+
+.testimonial-header {
+
+}
+
+#scrolling { /* Carousel Frame */
+    overflow: hidden;
+}
+
+.testimonial-list {
+    margin: 0;
+    padding: 0;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    flex-wrap: nowrap;
+}
+
+.testimonial-card {
+  float: left;
+}
+
+.testimonial-img {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: hsl(0, 0%, 98%);
+}
